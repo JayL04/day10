@@ -25,11 +25,12 @@
             <a href="sign-up.html">Sign up</a>
         </li>
     </ul>
-<form id="newsletter" action="mailto:lja350647@gnspes.ca?subject=From%20our%20Website" 
+<br>
+<form style="text-align: center;" id="newsletter" action="mailto:lja350647@gnspes.ca?subject=From%20our%20Website" 
 method="post" enctype="text/plain">
 
 <p>YourName:</p>
-<input type="text" name="YourName" minlength="3" required="required" size="50">
+<input type="text" name="YourName" minlength="3" required="required">
 <br>
 <p>your age:</p>
 <input type="number" name="Age" minlength="12" required="required">
@@ -52,8 +53,12 @@ method="post" enctype="text/plain">
     <option value="Nunavut">NU</option>
 </select><br>
 <p>What is your favourite image category?</p>
-<input type="text" name="category">
-<br>
+<select name="category">
+    <option value="Landscape">Landscape</option>
+    <option value="Protest">Protest</option>
+    <option value="Portrait">Portrait</option>
+    <option value="Cityscape">Cityscape</option>
+</select><br>
 <br>
 <label for="TDate">Today's Date:</label>
 <input type="date" id="TDate" name="TDate" required="required">
